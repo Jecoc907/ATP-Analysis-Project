@@ -15,11 +15,14 @@ In our preliminary analysis, we first used the “describe” command to learn b
 In order to obtain a better understanding of the relationship between age and winning, we chose concatenate the winner and loser data into a new dataframe. In this new dataframe, we included “Age” and dummy variable “win_or_lose” to indicate winner and loser. This allowed us to perform a simple linear regression and correlation matrix. 
 From our result, we learned that the two variables have low correlation coefficient and our simple linear regression model is not accurate due to the low R-square value and high p-value of the independent variable (meaning it is not statistically significant).
 
-![image](https://github.com/Jecoc907/ATP-Analysis-Project/assets/71363412/81adee95-a76f-497b-a3a2-eda265e39c3a)
-![image](https://github.com/Jecoc907/ATP-Analysis-Project/assets/71363412/2a3a6c1c-4298-4f21-b328-da12cbc9e21c)
-![image](https://github.com/Jecoc907/ATP-Analysis-Project/assets/71363412/2254664f-f910-4654-97a3-b1a17491262c)
- 
-	Next step, we categorized our data into 8 different groups and tried to compare win rate between groups. In the table and plot shown below, we can observe that the win rate of age group “under 18” (30.7%) and “22-26” (51.3%) are the lowest and highest respectively. Secondly, the overall win rate from 18 to 38 is relatively stable, stayed around 50% and start dropping after 38 years old.
-	In conclusion, we could not conclude that players’ age is statistically significant of winning a match in Grand Slam level. Furthermore, we observed that professional tennis players do not have a particular “prime period”. Instead, they have a relatively long and stable career with a steady win rate overall.
+![image](https://github.com/Jecoc907/ATP-Analysis-Project/assets/71363412/ef6e44a8-8ae8-4333-9f69-5f0a397b5526)
+![image](https://github.com/Jecoc907/ATP-Analysis-Project/assets/71363412/69ef8dae-fadc-4e9d-9a95-a717f672ed1a)
+
+![image](https://github.com/Jecoc907/ATP-Analysis-Project/assets/71363412/3d4aee7e-b567-403b-aa92-4aab02efab6a)
+
+
+Next step, we categorized our data into 8 different groups and tried to compare win rate between groups. In the table and plot shown below, we can observe that the win rate of age group “under 18” (30.7%) and “22-26” (51.3%) are the lowest and highest respectively. Secondly, the overall win rate from 18 to 38 is relatively stable, stayed around 50% and start dropping after 38 years old.
+
+In conclusion, we could not conclude that players’ age is statistically significant of winning a match in Grand Slam level. Furthermore, we observed that professional tennis players do not have a particular “prime period”. Instead, they have a relatively long and stable career with a steady win rate overall.
 
 ![image](https://github.com/Jecoc907/ATP-Analysis-Project/assets/71363412/690def13-28a5-4ac2-85a9-c059fb895f54)
